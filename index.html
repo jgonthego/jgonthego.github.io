@@ -30,7 +30,7 @@
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank"
 		mv-app="cart" mv-storage="local" mv-autosave="0" mv-mode="read">
-	<h1>My Cart</h1>
+	<h2>My List</h2>
 
 	<!-- required by PayPal -->
 	<input type="hidden" name="cmd" value="_cart">
@@ -68,7 +68,7 @@
 			</td>
 		</tr>
 		<tr mv-if="count(product) = 0" class="empty-cart-message">
-			<td colspan="4">(Cart is empty)</td>
+			<td colspan="4">(List is empty)</td>
 			<td></td>
 		</tr>
 		<tfoot>
@@ -78,7 +78,7 @@
 			</tr>
 		</tfoot>
 	</table>
-	<button disabled="[count(product) = 0]" class="checkout">Check out with PayPal</button>
+	<button disabled="[count(product) = 0]" class="checkout">Pay</button>
 </form>
 
 </body>
