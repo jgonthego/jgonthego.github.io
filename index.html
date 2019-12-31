@@ -16,12 +16,14 @@
 	<h2>Items</h2>
 
 	<article property="product" mv-multiple>
-		<img property="image" alt="" />
+               <p>
+	        <img property="image" alt="" />
 		<span property="name"></span>
 		<!-- Dot notation because cart is a separate Mavo app, due to separate storage (local) -->
 		<button mv-action="add(product, cart.product)" class="add-to-cart">Add to list</button>
 		<span property="amount" class="price"></span>
-	</article>
+              </p>
+        </article>
 
 	<footer>
 		<!-- <input type="submit" value="Send Request"> -->
