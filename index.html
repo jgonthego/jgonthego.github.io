@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<div mv-app="eshop" mv-storage="https://jgonthego.github.io/products.json" mv-bar="no-login">
+<div mv-app="eshop" mv-storage="https://jgonthego.github.io/products.json" mv-bar="no-login mv-plugins="clear"">
 	<h2>Items</h2>
 
 	<article property="product" mv-multiple>
@@ -28,7 +28,9 @@
 		<!-- <a href="mailto:[email]" property="email" mv-attribute="none">jason.geist@csra.com</a> -->
 	</footer>
 </div>
-
+<div class="mv-bar mv-ui">
+    <button class="mv-clear">Reset</button>
+</div>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank"
 		mv-app="cart" mv-storage="local" mv-autosave="0" mv-mode="read">
 	<h2>My List</h2>
