@@ -1,4 +1,6 @@
 {
+	"product": [
+		{
 			"name": "ShopRite Butter - Whipped - Salted",
             "image": "https://securecontent.shoprite.com/api/Images/v7/products/166094/dimensions/144x144_padded/jpg"
 		},
@@ -442,3 +444,5 @@
 			"name": "Zud Multi Purosep Cream Cleanser",
             "image": "https://securecontent.shoprite.com/api/Images/v7/products/954835/dimensions/144x144_padded/jpg"
 		}
+]
+}
