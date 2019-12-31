@@ -2,14 +2,14 @@
 {
 	"product": [
 		{
-			"name": "Dog?",
-			"amount": 10.00,
-			"image": "http://theworstthingsforsale.com/wp-content/uploads/2018/05/did-you-medicate-the-dog.jpg"
+			"name": "ShopRite Butter - Whipped - Salted",
+			"amount": 10,
+			"image": "https://securecontent.shoprite.com/api/Images/v7/products/166094/dimensions/144x144_padded/jpg"
 		},
 		{
-			"name": " Broccoli",
-			"amount": 20.00,
-			"image": "http://theworstthingsforsale.com/wp-content/uploads/2018/05/i-believe-in-broccoli.jpg"
+			"name": "ShopRite Cream Cheese",
+			"amount": 20,
+			"image": "https://securecontent.shoprite.com/api/Images/v7/products/166100/dimensions/144x144_padded/jpg"
 		},
 		{
 			"name": " Rattle",
