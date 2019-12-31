@@ -34,7 +34,7 @@
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank"
 		mv-app="cart" mv-storage="local" mv-autosave="0" mv-mode="read">
 	<h2>My List</h2>
-
+<a href="mailto:jason.geist@csra.com?subject=[name]">Email list</a>
 	<!-- required by PayPal -->
 	<input type="hidden" name="cmd" value="_cart">
 	<input type="hidden" name="upload" value="1">
@@ -84,6 +84,5 @@
 	<button disabled="[count(product) = 0]" class="checkout">Pay</button>
        <!-- <a href="mailto:[email]" property="email" mv-attribute="none">jason.geist@csra.com</a> -->
 </form>
-<a href="mailto:jason.geist@csra.com?subject=[name]">Email list</a>
 </body>
 </html>
