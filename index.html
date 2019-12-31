@@ -20,9 +20,23 @@
         		<h1>Hi there, I'm Hank Quinlan!</h1>
 				<p> <em>A Touch of Evil</em>  me. <a href="/about">Read more about my life...</a></p>
     		</div><!-- /.blurb -->
-			<div mv-app id="mavoTest">
-                            My first Mavo app!
-                        </div>
+			
+			
+<div mv-app="commentform" mv-storage="local" mv-autosave="0">
+    <label>
+        Email:
+        <input type="email" property="email" value="foo@example.com" />
+    </label>
+    <label>
+        Message:
+        <textarea property="message">
+            Edit the form and notice how the values persist after you refresh!
+        </textarea>
+    </label>
+</div>
+			
+			
+			
 		</div><!-- /.container -->
 		<footer>
     		<ul>
