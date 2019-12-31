@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<div mv-app="eshop" mv-storage="https://jgonthego.github.io/products.json" mv-bar="no-login mv-plugins="clear"">
+<div mv-app="eshop" mv-storage="https://jgonthego.github.io/products.json" mv-bar="no-login" mv-bar="with clear" mv-plugins="clear">
 	<h2>Items</h2>
 
 	<article property="product" mv-multiple>
@@ -24,13 +24,11 @@
 	</article>
 
 	<footer>
-		  <input type="submit" value="Send Request">
+		<!-- <input type="submit" value="Send Request"> -->
 		<!-- <a href="mailto:[email]" property="email" mv-attribute="none">jason.geist@csra.com</a> -->
 	</footer>
 </div>
-<div class="mv-bar mv-ui">
-    <button class="mv-clear">Reset</button>
-</div>
+
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank"
 		mv-app="cart" mv-storage="local" mv-autosave="0" mv-mode="read">
 	<h2>My List</h2>
@@ -60,7 +58,7 @@
 		</thead>
 		<tr property="product" mv-multiple mv-initial-items="0">
 			<!-- Anything with a name attribute is sent to PayPal -->
-			<td><button type="button" title="Remove from cart" mv-action="delete(product)" class="remove">❌</button></td>
+			<td><button type="button" title="Remove from list" mv-action="delete(product)" class="remove">❌</button></td>
 			<td property="name"></td>
 			<td><input type="number" property="quantity" value="1" min="1" name="quantity_[$index + 1]"></td>
 			<td class="price" property="amount"></td>
