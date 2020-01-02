@@ -9,26 +9,8 @@
 <script src="https://dev.mavo.io/dist/mavo.js"></script>
 <link rel="stylesheet" href="style.css">
 
- <script type="text/javascript" src="https://github.com/jgonthego/jgonthego.github.io/mavo/cart.json"></script>
-             <script type="text/javascript" >
-                function load() {
-                     var mydata = JSON.parse(data);
-                     alert(mydata.length);
-
-                     var div = document.getElementById('data');
-
-                     for(var i = 0;i < mydata.length; i++)
-                     {
-                        div.innerHTML = div.innerHTML + "<p class='inner' id="+i+">"+ mydata[i].name +"</p>" + "<br>";
-                     }
-                 }
-        </script>
-
 </head>
-    <body onload="load()">
-    <div id= "data">
 
-    </div>
 <body>
 
 <div mv-app="eshop" mv-storage="https://jgonthego.github.io/products.json" mv-bar="no-login" mv-bar="with clear" mv-plugins="clear">
@@ -52,7 +34,7 @@
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank"
 		mv-app="cart" mv-storage="https://github.com/jgonthego/jgonthego.github.io/mavo/cart.json" mv-plugins="tinymce">
 	<h2>My List</h2>
-         <a href="mailto:jason.geist@csra.com?subject=Pick up at ShopRite&body=[name][quantity][amount]">Email list 9</a>
+         <a href="mailto:jason.geist@csra.com?subject=Pick up at ShopRite&body=[name][quantity][amount]">Email list</a>
 	<!-- required by PayPal -->
 	<input type="hidden" name="cmd" value="_cart">
 	<input type="hidden" name="upload" value="1">
