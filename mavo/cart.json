@@ -5,36 +5,6 @@
 			"name": "ShopRite Butter - Whipped - Salted",
 			"amount": 10,
 			"quantity": 1
-		},
-		{
-			"image": "https://securecontent.shoprite.com/api/Images/v7/products/166100/dimensions/144x144_padded/jpg",
-			"name": "ShopRite Cream Cheese Block",
-			"amount": 10,
-			"quantity": 1
-		},
-		{
-			"image": "https://securecontent.shoprite.com/api/Images/v7/products/330997/dimensions/144x144_padded/jpg",
-			"name": "ShopRite Muenster Cheese",
-			"amount": 10,
-			"quantity": 1
-		},
-		{
-			"image": "https://securecontent.shoprite.com/api/Images/v7/products/166094/dimensions/144x144_padded/jpg",
-			"name": "ShopRite Butter - Whipped - Salted",
-			"amount": 10,
-			"quantity": 1
-		},
-		{
-			"image": "https://securecontent.shoprite.com/api/Images/v7/products/1478442/dimensions/144x144_padded/jpg",
-			"name": "Diet Pepsi Cola Classic Taste - 12 Pack Cans",
-			"amount": 10,
-			"quantity": 1
-		},
-		{
-			"image": "https://securecontent.shoprite.com/api/Images/v7/products/1428048/dimensions/144x144_padded/jpg",
-			"name": "Nature&#39;s Truth Apple Cider Vinegar for Weight Loss - 60 Pack",
-			"amount": 10,
-			"quantity": 1
 		}
 	]
 }
