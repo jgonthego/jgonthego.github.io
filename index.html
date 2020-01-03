@@ -34,7 +34,7 @@
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank"
 	mv-app="cart" mv-storage="https://github.com/jgonthego/jgonthego.github.io/mavo/cart.json" mv-format="csv">
 	<h2>My List</h2>
-         <a href="mailto:jason.geist@csra.com?subject=Pick up at ShopRite&body=[name]">Email list</a>
+         <a href="mailto:jason.geist@csra.com?subject=Pick up at ShopRite&body=[cart]">Email list 3</a>
 	<!-- required by PayPal -->
 	<input type="hidden" name="cmd" value="_cart">
 	<input type="hidden" name="upload" value="1">
@@ -84,7 +84,7 @@
 <script>
 var tableRef = document.getElementById('t01').getElementsByTagName('tbody')[0];
 </script>
-<a href="mailto:jason.geist@csra.com?subject=Pick up at ShopRite&body=[product.name][product.quantity]">Email list 9</a>
+<a href="mailto:jason.geist@csra.com?subject=Pick up at ShopRite&body=[cart]">Email list 10</a>
 	<button disabled="[count(product) = 0]" class="checkout">Pay</button>
        <!-- <a href="mailto:[email]" property="email" mv-attribute="none">jason.geist@csra.com</a> -->
 </form>
