@@ -41,7 +41,7 @@
 	<input type="hidden" name="business" value="actions@mavo.io"> <!-- Sandbox account -->
 	<input type="hidden" name="currency_code" value="USD">
 
-	<table class="t01">
+	<table id="t01">
 		<colgroup>
 			<col class="remove"></col>
 			<col class="product"></col>
@@ -81,7 +81,18 @@
 			</tr>
 		</tfoot>
 	</table>
-<a href="mailto:jason.geist@csra.com?subject=Pick up at ShopRite&body=[product.name][product.quantity]">Email list 3</a>
+<script>
+ function sortRow(distType){
+        var table = document.getElementById(distType); //this is new value that I have to compare against existing values and return position in the table.
+		for (var i = 0; i < table.rows.length; i++) {
+   var firstCol = table.rows[i].cells[0]; //first column
+    console.log(firstCol.innerHTML);// or anything you want to do with first col
+}
+    }
+	sortRow("t01");
+	
+	</script>
+<a href="mailto:jason.geist@csra.com?subject=Pick up at ShopRite&body=[product.name][product.quantity]">Email list 5</a>
 	<button disabled="[count(product) = 0]" class="checkout">Pay</button>
        <!-- <a href="mailto:[email]" property="email" mv-attribute="none">jason.geist@csra.com</a> -->
 </form>
