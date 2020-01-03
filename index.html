@@ -23,8 +23,6 @@
 		<!-- Dot notation because cart is a separate Mavo app, due to separate storage (local) -->
 		<button mv-action="add(product, cart.product)" class="add-to-cart">Add to list</button>
 		<span property="amount" class="price"></span>
-                <button mv-action="add(product)">Add</button>
-                <button mv-action="add(name, price)">Reset</button>
               </p>
         </article>
 
@@ -88,5 +86,7 @@
 	<button disabled="[count(product) = 0]" class="checkout">Pay</button>
        <!-- <a href="mailto:[email]" property="email" mv-attribute="none">jason.geist@csra.com</a> -->
 </form>
+ <button mv-action="add(product)">Add</button>
+ <button mv-action="delete(name, price)">Reset</button>
 </body>
 </html>
