@@ -81,20 +81,19 @@
 			</tr>
 		</tfoot>
 	</table>
-
-<a href="mailto:jason.geist@csra.com?subject=Pick up at ShopRite&body=[product.name][product.quantity">Email list 1</a>
-	<button disabled="[count(product) = 0]" class="checkout">Pay</button>
-       <!-- <a href="mailto:[email]" property="email" mv-attribute="none">jason.geist@csra.com</a> -->
-</form>
-        <article property="product" mv-multiple>
+        <article property="product2" mv-multiple>
                <p>
-	        <img property="image" alt="" />
-		<span property="name"></span>
+	        <span property="name"></span>
 		<!-- Dot notation because cart is a separate Mavo app, due to separate storage (local) -->
 		<button mv-action="add(product)">Add</button>
                 <button mv-action="add(name, price)">Reset</button>
 		<span property="amount" class="price"></span>
                </p>
 	</article>
+<a href="mailto:jason.geist@csra.com?subject=Pick up at ShopRite&body=[product.name][product.quantity">Email list 1</a>
+	<button disabled="[count(product) = 0]" class="checkout">Pay</button>
+       <!-- <a href="mailto:[email]" property="email" mv-attribute="none">jason.geist@csra.com</a> -->
+</form>
+
 </body>
 </html>
