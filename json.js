@@ -7,6 +7,6 @@ $().ready(function(){
                   Image: ${data.string}`
                     
         
-        $("#text").html(data["text"]);
+        $("#text").html("text");
     });
 });
