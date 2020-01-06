@@ -1,3 +1,3 @@
 $().ready(function() {
-   $("#text").html("Text added by jQuery code.");
+   $("#t01").html("Text.");
 });
