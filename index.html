@@ -53,19 +53,19 @@ request.send();
 
 request.onload = function() {
   const superHeroes = request.response;
-//  populateHeader(superHeroes);
+  populateHeader(superHeroes);
   showHeroes(superHeroes);
 }
 
-//function populateHeader(jsonObj) {
-//  const myH1 = document.createElement('h1');
-//  myH1.textContent = jsonObj['squadName'];
-//  header.appendChild(myH1);
+function populateHeader(jsonObj) {
+  const myH1 = document.createElement('h1');
+  myH1.textContent = jsonObj['squadName'];
+  header.appendChild(myH1);
 
-//  const myPara = document.createElement('p');
-//  myPara.textContent = 'Hometown: ' + jsonObj['homeTown'] + ' // Formed: ' + jsonObj['formed'];
-//  header.appendChild(myPara);
-//}
+  const myPara = document.createElement('p');
+  myPara.textContent = 'Hometown: ' + jsonObj['homeTown'] + ' // Formed: ' + jsonObj['formed'];
+  header.appendChild(myPara);
+}
 
 function showHeroes(jsonObj) {
   const heroes = jsonObj['members'];
