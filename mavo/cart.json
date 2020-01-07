@@ -1,6 +1,5 @@
 {
-	"product": [
-		{
+	{
 			"image": "https://securecontent.shoprite.com/api/Images/v7/products/330997/dimensions/144x144_padded/jpg",
 			"name": "ShopRite Muenster Cheese",
 			"amount": 10,
@@ -18,5 +17,5 @@
 			"amount": 10,
 			"quantity": 1
 		}
-	]
+	
 }
