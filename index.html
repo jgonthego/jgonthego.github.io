@@ -35,13 +35,12 @@
 //$.getJSON('https://corsproxy.github.io/?https://github.com/jgonthego/jgonthego.github.io/blob/master/mavo/cart.json', function(data) {
     //data is the JSON string
 //})
-var s = '{ "image": "https://securecontent.shoprite.com/api/Images/v7/products/330997/dimensions/144x144_padded/jpg", "name": "ShopRite Muenster Cheese", "amount": "10", "quantity": "1" }';
+var s = '{ "image": "144x144_padded/jpg", "name": "ShopRite Muenster Cheese", "amount": "10", "quantity": "1" }';
 
 var obj = JSON.parse(s);
 
 document.getElementById("user").innerHTML =
-"Name: " + obj.name + " " + obj.amount + "<br>" +
-"Location: " + obj.image;
+obj.name + " " + obj.amount + " " + obj.image;
 </script>
 	</footer>
 </div>
