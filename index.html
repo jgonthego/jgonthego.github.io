@@ -28,9 +28,18 @@
         </article>
 
 	<footer>
-		<button mv-action="add(product, cart.product), Mavo.all['catalog'].message('Your product has been added to the cart!', { classes: 'mv-inline alert', dismiss: { timeout: 3000 } })" class="hidden">
-			Buy
-		</button>
+
+<p id="user"></p>
+
+<script>
+var s = '{"first_name" : "Sammy", "last_name" : "Shark", "location" : "Ocean"}';
+
+var obj = JSON.parse(s);
+
+document.getElementById("user").innerHTML =
+"Name: " + obj.first_name + " " + obj.last_name + "<br>" +
+"Location: " + obj.location;
+</script>
 	</footer>
 </div>
 
