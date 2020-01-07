@@ -32,14 +32,31 @@
 <p id="user"></p>
 
 <script>
-$.getJSON('https://corsproxy.github.io/?https://github.com/jgonthego/jgonthego.github.io/blob/master/mavo/cart.json', function(data) {
+//$.getJSON('https://corsproxy.github.io/?https://github.com/jgonthego/jgonthego.github.io/blob/master/mavo/cart.json', function(data) {
     //data is the JSON string
-})
-var s = '{"first_name" : "Sammy", "last_name" : "Shark", "location" : "Ocean"}';
+//})
+var s = '{
+			"image": "https://securecontent.shoprite.com/api/Images/v7/products/330997/dimensions/144x144_padded/jpg",
+			"name": "ShopRite Muenster Cheese",
+			"amount": "10",
+			"quantity": "1"
+		},
+		{
+			"image": "https://securecontent.shoprite.com/api/Images/v7/products/166100/dimensions/144x144_padded/jpg",
+			"name": "ShopRite Cream Cheese Block",
+			"amount": "10",
+			"quantity": "1"
+		},
+		{
+			"image": "https://securecontent.shoprite.com/api/Images/v7/products/166094/dimensions/144x144_padded/jpg",
+			"name": "ShopRite Butter - Whipped - Salted",
+			"amount": "10",
+			"quantity": "1"
+		}';
 
-var obj = JSON.parse(data);
+var obj = JSON.parse(s);
 
-document.getElementById("product").innerHTML =
+document.getElementById("user").innerHTML =
 "Name: " + obj.name + " " + obj.amount + "<br>" +
 "Location: " + obj.image;
 </script>
