@@ -59,16 +59,16 @@ request.onload = function() {
 
 function populateHeader(jsonObj) {
   const myH1 = document.createElement('h1');
-  myH1.textContent = jsonObj['squadName'];
+  myH1.textContent = jsonObj['product'];
   header.appendChild(myH1);
 
   const myPara = document.createElement('p');
-  myPara.textContent = 'Hometown: ' + jsonObj['homeTown'] + ' // Formed: ' + jsonObj['formed'];
+  myPara.textContent = 'Hometown: ' + jsonObj['name'] + ' // Formed: ' + jsonObj['formed'];
   header.appendChild(myPara);
 }
 
 function showHeroes(jsonObj) {
-  const heroes = jsonObj['members'];
+  const heroes = jsonObj['product'];
       
   for (let i = 0; i < heroes.length; i++) {
     const myArticle = document.createElement('article');
