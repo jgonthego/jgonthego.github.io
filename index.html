@@ -68,7 +68,7 @@ function populateHeader(jsonObj) {
 }
 
 function showHeroes(jsonObj) {
-  const heroes = jsonObj['squadName'];
+  const heroes = jsonObj['members'];
       
   for (let i = 0; i < heroes.length; i++) {
     const myArticle = document.createElement('article');
