@@ -1,22 +1,4 @@
-{
-	"product": [
-		{
-			"image": "https://securecontent.shoprite.com/api/Images/v7/products/330997/dimensions/144x144_padded/jpg",
-			"name": "ShopRite Muenster Cheese",
-			"amount": 10,
-			"quantity": 1
-		},
-		{
-			"image": "https://securecontent.shoprite.com/api/Images/v7/products/166100/dimensions/144x144_padded/jpg",
-			"name": "ShopRite Cream Cheese Block",
-			"amount": 10,
-			"quantity": 1
-		},
-		{
-			"image": "https://securecontent.shoprite.com/api/Images/v7/products/166094/dimensions/144x144_padded/jpg",
-			"name": "ShopRite Butter - Whipped - Salted",
-			"amount": 10,
-			"quantity": 1
-		}
-	]
-}
+image,name,amount,quantity
+https://securecontent.shoprite.com/api/Images/v7/products/166094/dimensions/144x144_padded/jpg,ShopRite Butter - Whipped - Salted,10,1
+https://securecontent.shoprite.com/api/Images/v7/products/166100/dimensions/144x144_padded/jpg,ShopRite Cream Cheese Block,10,1
+https://securecontent.shoprite.com/api/Images/v7/products/330997/dimensions/144x144_padded/jpg,ShopRite Muenster Cheese,10,1
