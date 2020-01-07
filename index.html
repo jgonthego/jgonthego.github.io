@@ -43,8 +43,8 @@
 const header = document.querySelector('header');
 const section = document.querySelector('section');
 
-//let requestURL = 'https://corsproxy.github.io/?https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
-let requestURL = 'https://cors-anywhere.herokuapp.com/https://github.com/jgonthego/jgonthego.github.io/blob/master/mavo/cart.json';
+let requestURL = 'https://cors-anywhere.herokuapp.com/https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
+//let requestURL = 'https://cors-anywhere.herokuapp.com/https://github.com/jgonthego/jgonthego.github.io/blob/master/mavo/cart.json';
 let request = new XMLHttpRequest();
 request.open('GET', requestURL);
 
@@ -59,11 +59,11 @@ request.onload = function() {
 
 function populateHeader(jsonObj) {
   const myH1 = document.createElement('h1');
-  myH1.textContent = jsonObj['product'];
+  myH1.textContent = jsonObj['squadName'];
   header.appendChild(myH1);
 
   const myPara = document.createElement('p');
-  myPara.textContent = 'Hometown: ' + jsonObj['name'] + ' // Formed: ' + jsonObj['formed'];
+  myPara.textContent = 'Hometown: ' + jsonObj['homeTown'] + ' // Formed: ' + jsonObj['formed'];
   header.appendChild(myPara);
 }
 
