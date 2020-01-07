@@ -28,7 +28,9 @@
         </article>
 
 	<footer>
-		<!-- <input type="submit" value="Send Request"> -->
+		<button mv-action="add(product, cart.product), Mavo.all['catalog'].message('Your product has been added to the cart!', { classes: 'mv-inline alert', dismiss: { timeout: 3000 } })" class="hidden">
+			Buy
+		</button>
 	</footer>
 </div>
 
