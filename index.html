@@ -39,15 +39,15 @@
 <p id="user"></p>
 
 
-
+<script>
 	
-//$.getJSON('https://corsproxy.github.io/?https://github.com/jgonthego/jgonthego.github.io/blob/master/mavo/cart.json', function(data) {
-    //data is the JSON string
-//})
-//var s = '{ "image": "144x144_padded/jpg", "name": "ShopRite Muenster Cheese", "amount": "10", "quantity": "1" }';
-//var obj = JSON.parse(s);
-//document.getElementById("user").innerHTML =
-//obj.name + " " + obj.amount + " " + obj.image;
+$.getJSON('https://corsproxy.github.io/?https://github.com/jgonthego/jgonthego.github.io/blob/master/mavo/cart.json', function(data) {
+    data is the JSON string
+})
+var s = '{ "image": "144x144_padded/jpg", "name": "ShopRite Muenster Cheese", "amount": "10", "quantity": "1" }';
+var obj = JSON.parse(s);
+document.getElementById("user").innerHTML =
+obj.name + " " + obj.amount + " " + obj.image;
 </script>
 	</footer>
 </div>
